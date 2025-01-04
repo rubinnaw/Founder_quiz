@@ -5,16 +5,13 @@ from aiogram import Bot, Dispatcher
 from handlers import router
 from aiogram.enums.parse_mode import ParseMode
 from utils import create_table
-
-
-# Установим библиотеку nest_asyncio
 import nest_asyncio
+
+
 nest_asyncio.apply()
 
-# Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 
-# Замените "YOUR_BOT_TOKEN" на токен, который вы получили от BotFather
 API_TOKEN = '7416431584:AAE4mWXCjqA1oIJeoMurb7OLZXnAWAppDMc'
 
 
